@@ -52,8 +52,9 @@ Les autres développeurs se répartissent les exos suivants de façon **équitab
 7. Je veux coller mon footer à ma dernière image de parallax.
 8. Il faut rajouter un component caroussel ou slider au dessus de ma grid.
 9. Je veux me débarrasser du warning dans ma console _"It looks like you're using a minified copy of the development build of React"_.
-10. BONUS : Mon tableau de nom de sport n'est pas assez défini. Je veux en faire un objet avec une image, un nom, et un contenu par sport. Chaque objet correspond à un component Card.
-11. BONUS : Je souhaite changer le thème couleur de materialize. En suivant les consignes indiquée sur la page npm de [materialize-loader](https://www.npmjs.com/package/materialize-loader) je crée mon fichier de config css pour re-définir les variables de $primary-colors.
+10. Faire un shéma de la structure du site. Commit le fichier dans le dossier spec.
+11. BONUS : Mon tableau de nom de sport n'est pas assez défini. Je veux en faire un objet avec une image, un nom, et un contenu par sport. Chaque objet correspond à un component Card.
+12. BONUS : Je souhaite changer le thème couleur de materialize. En suivant les consignes indiquée sur la page npm de [materialize-loader](https://www.npmjs.com/package/materialize-loader) je crée mon fichier de config css pour re-définir les variables de $primary-colors.
 
 **Chaque exo représente au minimum un commit :**
 
@@ -66,6 +67,7 @@ Il ne merge pas les pull requests qui n'y répondent pas.
 
 **Ressources :**
 
++ [Shéma des consignes](https://raw.githubusercontent.com/simplonco/React-Bus-Factor/master/desc/img.png)
 + [Webpack](https://www.grafikart.fr/tutoriels/javascript/webpack-module-bundler-758)
 + [Pull requests](https://www.grafikart.fr/formations/git/fork-pull-request)
 + [React](https://facebook.github.io/react/docs/hello-world.html)
