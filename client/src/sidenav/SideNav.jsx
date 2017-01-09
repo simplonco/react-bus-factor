@@ -1,13 +1,20 @@
 /**
 * @desc Ce component permet d'intégrer facilement le module sidenav de materialize
 */
-
+import "./sideNav.scss"
 class SideNav extends React.Component {
 
   // S'execute quand le HTML du component est entièrement chargé dans la page
   componentDidMount() {
     // Materialize initie la sidenav
-    $('.button-collapse').sideNav();
+
+    $('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 240
+      edge: 'right', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );
   }
 
   // Le HTML qui sera incorporé à chaque fois que <SideNav /> est appelé
@@ -29,7 +36,7 @@ class SideNav extends React.Component {
           <li><a className="subheader">Subheader</a></li>
           <li><a className="waves-effect" href="#!">Third Link With Waves</a></li>
         </ul>
-        <a href="#" data-activates="slide-out" className="button-collapse"><i className="material-icons">menu</i></a>
+        <a href="#" data-activates="slide-out" className="right button-collapse"><i className="material-icons">menu</i></a>
       </div>
     )
   }
