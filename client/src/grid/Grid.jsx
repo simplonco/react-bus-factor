@@ -15,7 +15,7 @@ class Grid extends React.Component {
   render () {
     return (
       <div>
-        <div className="divider"></div>
+       
         <div className="row">
           {
             this.state.names.map((n)=> {
