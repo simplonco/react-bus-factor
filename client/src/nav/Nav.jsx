@@ -1,7 +1,7 @@
 /**
 * @desc Ce component permet d'intégrer facilement une navbar
 */
-
+import "./Nav.css"
 class Nav extends React.Component {
 
   // Le HTML qui sera incorporé à chaque fois que <Nav /> est appelé
