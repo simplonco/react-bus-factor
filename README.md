@@ -1,7 +1,7 @@
 **Bus factor**
 ===================
 
-Par équipe de 4.
+Par équipe de 3.
 
 Choisissez la personne la plus avancée techniquement sur les technos utilisées dans le cadre du projet et donnez lui le poste de dev lead.
 
