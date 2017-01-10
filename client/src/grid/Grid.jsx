@@ -15,12 +15,12 @@ class Grid extends React.Component {
   render () {
     return (
       <div>
-       
-        <div className="row">
+       <div className="row">
+
           {
             this.state.names.map((n)=> {
               return (
-                <div className="col s4" key={n}>
+                <div className="col l3 s12" key={n}>
                   <Card content={n} />
                 </div>
               )
