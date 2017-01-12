@@ -5,7 +5,11 @@
 import Card from '../card/Card.jsx';
 
 class Grid extends React.Component {
+  
+    
+    
 
+  
   constructor(props) {
     super(props)
     this.state = {names : ['football', 'basketball', 'hockey', 'tennis', 'surf', 'ski', 'natation', 'badmington', 'equitation', 'petanque', 'bobsleigh', 'aviron'].sort()}
@@ -28,7 +32,7 @@ class Grid extends React.Component {
           }
         </div>
       </div>
-    )
+          )
   }
 
 }
