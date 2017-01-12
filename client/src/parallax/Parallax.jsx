@@ -1,7 +1,6 @@
 /**
 * @desc Ce component permet d'intégrer facilement une image avec l'effet parallax de materialize
 */
-
 class Parallax extends React.Component {
 
   // S'execute quand le HTML du component est entièrement chargé dans la page
