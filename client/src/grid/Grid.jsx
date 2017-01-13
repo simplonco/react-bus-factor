@@ -5,22 +5,26 @@
 import Card from '../card/Card.jsx';
 
 class Grid extends React.Component {
+  
+    
+    
 
+  
   constructor(props) {
     super(props)
-    this.state = {names : ['football', 'basketball', 'hockey', 'tennis', 'surf', 'ski', 'natation', 'badmington', 'equitation', 'petanque', 'bobsleigh', 'aviron']}
-  }
+    this.state = {names : ['football', 'basketball', 'hockey', 'tennis', 'surf', 'ski', 'natation', 'badmington', 'equitation', 'petanque', 'bobsleigh', 'aviron'].sort()}
+  };
 
   // Le HTML qui sera incorporé à chaque fois que <Grid /> est appelé
   render () {
     return (
       <div>
-        <div className="divider"></div>
-        <div className="row">
+       <div className="row">
+
           {
             this.state.names.map((n)=> {
               return (
-                <div className="col s4" key={n}>
+                <div className="col l3 s12" key={n}>
                   <Card content={n} />
                 </div>
               )
@@ -28,7 +32,7 @@ class Grid extends React.Component {
           }
         </div>
       </div>
-    )
+          )
   }
 
 }
